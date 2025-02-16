@@ -23,14 +23,14 @@ const Header = () => {
                     </button>
                 </div>
 
-                <div className="border py-[7px] px-[20px] rounded-[50%]">
-                    <span className="text-[1.7rem]">Y</span>
+                <div className="border py-[8px] px-[20px] rounded-[50%]">
+                    <span className="text-[1.5rem]">Y</span>
                 </div>
             </div>
             {
                 showSideBar && (
-                    <div>
-                        <div className="absolute top-0 w-full h-[100vh] bg-black opacity-[30%]"></div>
+                    <div className="fixed top-0">
+                        <div className="absolute z-[-1] w-screen h-[100vh] bg-black opacity-[30%]"></div>
                         <SideBar setShow={setShowSideBar} />
                     </div>
                 )

@@ -2,7 +2,7 @@ import { CROSS_ICON } from "../utils/constants";
 
 const SideBar = ({setShow}) => {
     return (
-        <div className="px-[1rem] py-[1.7rem] shadow-2xl bg-white h-full w-full max-w-[300px] absolute top-0">
+        <div className="px-[1rem] py-[1.7rem] shadow-2xl bg-white h-[100vh] w-[300px] absolute z-[10]">
             <button className="cursor-pointer" onClick={() => setShow(false)}>
                 <img className="w-[35px]" src={CROSS_ICON} />
             </button>
