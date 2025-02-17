@@ -3,6 +3,8 @@ import Body from "./components/Body";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
 import WatchVideo from "./components/WatchVideo";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
 
 const appRouter = createBrowserRouter([
 	{
@@ -13,14 +15,16 @@ const appRouter = createBrowserRouter([
 		path: "/watch/:watchId",
 		element: <WatchVideo />
 	}
-])
+]);
 
 const App = () => {
 	return (
-		<div>
-			<Header />
-			<RouterProvider router={appRouter} />
-		</div>
+		<Provider store={appStore}>
+			<div>
+				<Header />
+				<RouterProvider router={appRouter} />
+			</div>
+		</Provider>
 	);
 };
 
