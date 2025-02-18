@@ -2,6 +2,7 @@ import useSpecificVideo from "../utils/useSpecificVideo";
 import { useParams } from "react-router-dom";
 import { LIKE_ICON } from "../utils/constants";
 import { getDateDiff } from "../utils/helpingFunctions";
+import CommentsCont from "./CommentsCont";
 
 const WatchVideo = () => {
     const {watchId} = useParams();
@@ -41,6 +42,9 @@ const WatchVideo = () => {
                         }
                     </button>
                 </div>
+
+                <CommentsCont videoId={watchId} />
+                
             </div>
         </div>
     );

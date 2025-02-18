@@ -11,7 +11,7 @@ const VideoCard = ({cardData}) => {
 
     return (
         <div>
-            <div>
+            <div className="w-full max-w-[500px]">
                 <img className="rounded-xl" src={url} />
             </div>
             <div className="mt-[15px]">

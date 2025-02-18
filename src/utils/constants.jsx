@@ -7,3 +7,135 @@ export const MENU_ICON = "https://cdn1.iconfinder.com/data/icons/heroicons-ui/24
 export const CROSS_ICON = "https://icons.veryicon.com/png/o/miscellaneous/medium-thin-linear-icon/cross-23.png";
 
 export const LIKE_ICON = "https://static.vecteezy.com/system/resources/previews/000/422/468/non_2x/like-icon-vector-illustration.jpg";
+
+export const NO_PROFILE_IMG = "https://static.thenounproject.com/png/3039079-200.png";
+
+export const COMMENTS = [
+    {
+        name: "Yash",
+        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+        replies: [
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    {
+                        name: "Yash",
+                        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                        replies: [
+                            {
+                                name: "Yash",
+                                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                                replies: [
+                                    
+                                ]
+                            },
+                            {
+                                name: "Yash",
+                                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                                replies: [
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    {
+                        name: "Yash",
+                        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                        replies: [
+                            
+                        ]
+                    }
+                ]
+            },
+
+        ]
+    },
+    {
+        name: "Yash",
+        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+        replies: [
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    
+                ]
+            },
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    {
+                        name: "Yash",
+                        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                        replies: [
+                            
+                        ]
+                    }
+                ]
+            },
+
+        ]
+    },
+    {
+        name: "Yash",
+        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+        replies: [
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    
+                ]
+            },
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    {
+                        name: "Yash",
+                        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                        replies: [
+                            
+                        ]
+                    }
+                ]
+            },
+
+        ]
+    },
+    {
+        name: "Yash",
+        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+        replies: [
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    
+                ]
+            },
+            {
+                name: "Yash",
+                com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                replies: [
+                    {
+                        name: "Yash",
+                        com: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.",
+                        replies: [
+                            
+                        ]
+                    }
+                ]
+            },
+
+        ]
+    },
+];
