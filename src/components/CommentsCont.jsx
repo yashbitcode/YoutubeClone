@@ -4,7 +4,7 @@ import GetComment from "./GetComment";
 const CommentsCont = ({videoId}) => {
     const allComments = useVideoComments(videoId, null);
 
-    if(!allComments.length) return;
+    if(!allComments?.length) return;
 
     return (
         <div className="w-full mt-[1rem]">

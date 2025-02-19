@@ -23,7 +23,7 @@ const SearchResult = () => {
             {
                 searchResults.map((el) => {
                     if(el.id.videoId) return (
-                        <Link to={`/watch/${el.id.videoId}`}>
+                        <Link to={`/watch/${el.id.videoId}`} key={el.id.videoId}>
                             <UserSearchCard cardData={el} />
                         </Link>
                     );
