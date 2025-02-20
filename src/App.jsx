@@ -6,6 +6,7 @@ import WatchVideo from "./components/WatchVideo";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import SearchResult from "./components/SearchResult";
+import Test from "./components/Test";
 
 const AppLayout = () => {
 	return (

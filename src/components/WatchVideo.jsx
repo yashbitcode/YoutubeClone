@@ -16,6 +16,7 @@ const WatchVideo = () => {
 
     return (
         <div className="py-[2rem] px-[1.2rem] flex gap-[15px]">
+            {/* <Test /> */}
             <div className="w-3/5">
                 <iframe className="w-full aspect-video rounded-xl"  src={`https://www.youtube.com/embed/${watchId}?mute=1&si=q3iEamUx0xYGxZY3`} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
