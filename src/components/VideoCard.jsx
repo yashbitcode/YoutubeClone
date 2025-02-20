@@ -1,6 +1,7 @@
 import { truncateStr, getDateDiff } from "../utils/helpingFunctions";
 
 const VideoCard = ({cardData}) => {
+    console.log(cardData);
     const {title, channelTitle, publishedAt} = cardData.snippet;
     const {viewCount} = cardData.statistics;
     const thumbnails = cardData.snippet.thumbnails;
@@ -24,6 +25,19 @@ const VideoCard = ({cardData}) => {
             </div>
         </div>
     );
+};
+
+export const SpecificVideoCard = (VideoCard) => {
+    return ({cardData}) => {
+        return (
+            <div className="relative">
+                <span className="text-white py-[10px] px-[20px] absolute left-0 top-0 bg-red-500 rounded-xl text-xl">
+                    {cardData.snippet.liveBroadcastContent.toUpperCase()}
+                </span>
+                <VideoCard cardData={cardData} />
+            </div>
+        );
+    };
 };
 
 export default VideoCard;

@@ -67,7 +67,7 @@ const Header = () => {
                         </Link>       
                         {
                             (searchSuggestion.length && showSuggestion) ? (
-                                <div className="w-[95%] top-[60px] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.12),_0_1px_2px_rgba(0,0,0,0.24)] rounded-xl absolute">
+                                <div className="z-10 w-[95%] top-[60px] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.12),_0_1px_2px_rgba(0,0,0,0.24)] rounded-xl absolute">
                                     <ul className="flex flex-col gap-[5px] p-[12px]">
                                         {
                                             searchSuggestion.map((el, idx) => {

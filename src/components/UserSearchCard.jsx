@@ -1,6 +1,5 @@
-const UserSearchCard = ({cardData}) => {
+const UserSearchCard = ({cardData}) => {    
     const {thumbnails, title, channelTitle} = cardData.snippet;
-
     const url = thumbnails?.high?.url || thumbnails?.medium?.url || thumbnails?.default?.url;
 
     return (

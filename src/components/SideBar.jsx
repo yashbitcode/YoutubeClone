@@ -1,5 +1,4 @@
 import { CROSS_ICON } from "../utils/constants";
-
 const SideBar = ({setShow}) => {
     return (
         <div className="px-[1rem] py-[1.7rem] shadow-2xl bg-white h-[100vh] w-[300px] absolute z-[10]">
